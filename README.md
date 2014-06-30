@@ -1,6 +1,6 @@
 ## What is this?
 
-This is sample code from the [Awesome Inc U Basic Web Crash Course]().
+This is sample code from the [Awesome Inc U Basic Web Crash Course](http://www.awesomeincu.com/courses/basicweb-crash/).
 
 ## What do I need to get started?
 

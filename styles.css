@@ -1,0 +1,26 @@
+* { 
+	font-family: Russo One, Helvetica, Arial;
+}
+ul.nav  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.nav li {
+	float: left;
+}
+
+ul.nav a:link, ul.nav a:visited {
+	display: block;
+	width: 100px;
+	color: white;
+	background-color: #aa0000;
+	padding: 3px;
+	text-decoration: none;
+}
+
+ul.nav a:hover, ul.nav a:active {
+	background-color: red;
+}
