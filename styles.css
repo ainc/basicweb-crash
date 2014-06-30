@@ -1,6 +1,26 @@
-* { 
-	font-family: Russo One, Helvetica, Arial;
+body {
+	background-color: #ebebd6;
 }
+
+h1, h2 { 
+	font-family: Russo One, Helvetica, Arial;
+	clear: both;
+}
+
+p, li, th, td {
+	font-family: Helvetica, Arial;
+	font-size: 18px;
+}
+
+a:link, a:visited {
+	color: #a00;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: red;
+}
+
 ul.nav  {
 	list-style-type: none;
 	margin: 0;
@@ -10,11 +30,12 @@ ul.nav  {
 
 ul.nav li {
 	float: left;
+	text-align: center;
 }
 
 ul.nav a:link, ul.nav a:visited {
 	display: block;
-	width: 100px;
+	width: 165px;
 	color: white;
 	background-color: #aa0000;
 	padding: 3px;
@@ -23,4 +44,24 @@ ul.nav a:link, ul.nav a:visited {
 
 ul.nav a:hover, ul.nav a:active {
 	background-color: red;
+}
+
+img {
+	margin:22px 10px 10px 0px;
+	float: left;
+}
+
+div.container {
+	width: 700px;
+	margin: auto;
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 }
